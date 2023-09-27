@@ -1,99 +1,99 @@
 <mxfile host="65bd71144e">
     <diagram id="TCC7TCrnxtZKgZeU-eHq" name="Page-1">
-        <mxGraphModel dx="974" dy="493" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+        <mxGraphModel dx="656" dy="495" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="5" value="&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=13;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1">
+                <mxCell id="5" value="&lt;font face=&quot;Verdana&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=13;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" parent="1" vertex="1">
                     <mxGeometry x="293" y="291.19" width="216" height="204.81" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="" style="group;fontSize=12;fontStyle=0" vertex="1" connectable="0" parent="1">
+                <mxCell id="6" value="" style="group;fontSize=12;fontStyle=0" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="111" y="255" width="120" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Spoke1&lt;br style=&quot;font-size: 12px;&quot;&gt;172.16.1.0/24&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;sketch=0;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Verdana;fontSize=12;" vertex="1" parent="6">
+                <mxCell id="7" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Spoke1&lt;br style=&quot;font-size: 12px;&quot;&gt;172.16.1.0/24&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;sketch=0;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Verdana;fontSize=12;" parent="6" vertex="1">
                     <mxGeometry y="5.384615384615384" width="117.8294573643411" height="64.61538461538461" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Virtual_Networks.svg;dashed=1;sketch=0;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Verdana;" vertex="1" parent="6">
+                <mxCell id="8" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Virtual_Networks.svg;dashed=1;sketch=0;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Verdana;" parent="6" vertex="1">
                     <mxGeometry x="99.2248062015504" width="12.48816568047337" height="7.455621301775147" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="" style="group;fontSize=12;fontStyle=0" vertex="1" connectable="0" parent="1">
+                <mxCell id="9" value="" style="group;fontSize=12;fontStyle=0" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="123" y="456" width="120" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Spoke3&lt;br style=&quot;font-size: 12px;&quot;&gt;172.16.2.0/24&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;sketch=0;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Verdana;fontSize=12;" vertex="1" parent="9">
+                <mxCell id="10" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Spoke3&lt;br style=&quot;font-size: 12px;&quot;&gt;172.16.2.0/24&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;sketch=0;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Verdana;fontSize=12;" parent="9" vertex="1">
                     <mxGeometry y="5.384615384615384" width="117.82945736434108" height="64.61538461538461" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Virtual_Networks.svg;dashed=1;sketch=0;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Verdana;" vertex="1" parent="9">
+                <mxCell id="11" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Virtual_Networks.svg;dashed=1;sketch=0;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Verdana;" parent="9" vertex="1">
                     <mxGeometry x="99.2248062015504" width="12.48816568047337" height="7.455621301775147" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="" style="group;fontSize=12;" vertex="1" connectable="0" parent="1">
+                <mxCell id="12" value="" style="group;fontSize=12;" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="93" y="353" width="120" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Spoke2&lt;br style=&quot;font-size: 12px;&quot;&gt;172.16.2.0/24&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;sketch=0;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Verdana;fontSize=12;" vertex="1" parent="12">
+                <mxCell id="13" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Spoke2&lt;br style=&quot;font-size: 12px;&quot;&gt;172.16.2.0/24&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;sketch=0;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Verdana;fontSize=12;" parent="12" vertex="1">
                     <mxGeometry y="5.384615384615384" width="117.8294573643411" height="64.61538461538461" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Virtual_Networks.svg;dashed=1;sketch=0;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Verdana;" vertex="1" parent="12">
+                <mxCell id="14" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Virtual_Networks.svg;dashed=1;sketch=0;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Verdana;" parent="12" vertex="1">
                     <mxGeometry x="99.2248062015504" width="12.48816568047337" height="7.455621301775147" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" style="edgeStyle=none;shape=connector;rounded=1;hachureGap=4;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Verdana;fontSize=12;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="16" target="17">
+                <mxCell id="15" style="edgeStyle=none;shape=connector;rounded=1;hachureGap=4;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Verdana;fontSize=12;fontColor=default;endArrow=none;endFill=0;" parent="1" source="16" target="17" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="Skytap&lt;br&gt;10.10.0.0/25&lt;br&gt;10.10.0.128/25&lt;br&gt;" style="whiteSpace=wrap;html=1;sketch=0;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Verdana;fontSize=12;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1;" vertex="1" parent="1">
+                <mxCell id="16" value="Skytap&lt;br&gt;10.10.0.0/25&lt;br&gt;10.10.0.128/25&lt;br&gt;" style="whiteSpace=wrap;html=1;sketch=0;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Verdana;fontSize=12;fillColor=#cce5ff;strokeColor=#36393d;fontStyle=1;" parent="1" vertex="1">
                     <mxGeometry x="763" y="366.5" width="162" height="113" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="Skytap&lt;br&gt;MSEE" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/ExpressRoute_Circuits.svg;sketch=0;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Verdana;fontStyle=0;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+                <mxCell id="17" value="Skytap&lt;br&gt;MSEE" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/ExpressRoute_Circuits.svg;sketch=0;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Verdana;fontStyle=0;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;" parent="1" vertex="1">
                     <mxGeometry x="621" y="403" width="43.75" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" style="edgeStyle=none;hachureGap=4;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7" target="5">
+                <mxCell id="20" style="edgeStyle=none;hachureGap=4;html=1;fontFamily=Verdana;fontSize=12;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="7" target="5" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" style="edgeStyle=none;shape=connector;rounded=1;hachureGap=4;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Verdana;fontSize=12;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="13" target="5">
+                <mxCell id="21" style="edgeStyle=none;shape=connector;rounded=1;hachureGap=4;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Verdana;fontSize=12;fontColor=default;endArrow=none;endFill=0;" parent="1" source="13" target="5" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" style="edgeStyle=none;shape=connector;rounded=1;hachureGap=4;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Verdana;fontSize=12;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="10" target="5">
+                <mxCell id="22" style="edgeStyle=none;shape=connector;rounded=1;hachureGap=4;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Verdana;fontSize=12;fontColor=default;endArrow=none;endFill=0;" parent="1" source="10" target="5" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" style="edgeStyle=none;sketch=0;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;endArrow=none;endFill=0;" edge="1" parent="1" source="29" target="32">
+                <mxCell id="28" style="edgeStyle=none;sketch=0;hachureGap=4;jiggle=2;curveFitting=1;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;endArrow=none;endFill=0;" parent="1" source="29" target="32" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="29" value="On-premises&lt;br&gt;10.154.0.0/24&lt;br&gt;" style="whiteSpace=wrap;html=1;sketch=0;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Verdana;fontSize=12;fillColor=#eeeeee;strokeColor=#36393d;fontStyle=1;" vertex="1" parent="1">
+                <mxCell id="29" value="On-premises&lt;br&gt;10.154.0.0/24&lt;br&gt;" style="whiteSpace=wrap;html=1;sketch=0;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Verdana;fontSize=12;fillColor=#eeeeee;strokeColor=#36393d;fontStyle=1;" parent="1" vertex="1">
                     <mxGeometry x="312.57" y="672" width="167.5" height="105" as="geometry"/>
                 </mxCell>
-                <mxCell id="32" value="&lt;div style=&quot;&quot;&gt;Dallas&lt;/div&gt;&lt;div style=&quot;&quot;&gt;MSEE&lt;/div&gt;" style="aspect=fixed;html=1;points=[];align=left;image;fontSize=12;image=img/lib/azure2/networking/ExpressRoute_Circuits.svg;sketch=0;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Verdana;fontStyle=0;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;labelBackgroundColor=none;" vertex="1" parent="1">
+                <mxCell id="32" value="&lt;div style=&quot;&quot;&gt;Dallas&lt;/div&gt;&lt;div style=&quot;&quot;&gt;MSEE&lt;/div&gt;" style="aspect=fixed;html=1;points=[];align=left;image;fontSize=12;image=img/lib/azure2/networking/ExpressRoute_Circuits.svg;sketch=0;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Verdana;fontStyle=0;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;labelBackgroundColor=none;" parent="1" vertex="1">
                     <mxGeometry x="374.44" y="591" width="43.75" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="33" value="&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Verdana; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;ER Connection&lt;/span&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontSize=9;fontFamily=Verdana;fontColor=default;rotation=0;fontStyle=1;verticalAlign=middle;" vertex="1" parent="1">
+                <mxCell id="33" value="&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Verdana; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;ER Connection&lt;/span&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontSize=9;fontFamily=Verdana;fontColor=default;rotation=0;fontStyle=1;verticalAlign=middle;" parent="1" vertex="1">
                     <mxGeometry x="528" y="425" width="90" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="35" style="rounded=1;hachureGap=4;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Verdana;fontSize=9;fontColor=default;endArrow=classic;endFill=1;opacity=30;exitX=0.006;exitY=0.437;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="36" target="5">
+                <mxCell id="35" style="rounded=1;hachureGap=4;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Verdana;fontSize=9;fontColor=default;endArrow=classic;endFill=1;opacity=30;exitX=0.006;exitY=0.437;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="36" target="5" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="530" y="470" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="36" value="1. Routing Intent + ER Gateway&lt;br&gt;2. Enable RFC 1918 for&amp;nbsp;ER to ER transit via Azure Firewall&lt;br&gt;3. Add Skytap summary to the Private Prefixes: &lt;u style=&quot;&quot;&gt;10.10.0.0/24&lt;/u&gt;" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;fontSize=10;fontFamily=Verdana;fontColor=default;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontStyle=1;opacity=40;dashed=1;spacing=2;spacingTop=2;spacingLeft=4;spacingRight=1;spacingBottom=2;html=1;" vertex="1" parent="1">
+                <mxCell id="36" value="1. Routing Intent + ER Gateway&lt;br&gt;2. Enable RFC 1918 for&amp;nbsp;ER to ER transit via Azure Firewall&lt;br&gt;3. Add Skytap summary to the Private Prefixes: &lt;u style=&quot;&quot;&gt;10.10.0.0/24&lt;/u&gt;" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;fontSize=10;fontFamily=Verdana;fontColor=default;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontStyle=1;opacity=40;dashed=1;spacing=2;spacingTop=2;spacingLeft=4;spacingRight=1;spacingBottom=2;html=1;" parent="1" vertex="1">
                     <mxGeometry x="552" y="264" width="364" height="48" as="geometry"/>
                 </mxCell>
-                <mxCell id="65" style="edgeStyle=elbowEdgeStyle;sketch=0;hachureGap=4;jiggle=2;curveFitting=1;elbow=vertical;html=1;fontFamily=Verdana;fontSize=10;startArrow=blockThin;startFill=1;endArrow=blockThin;endFill=1;dashed=1;" edge="1" parent="1" source="51" target="53">
+                <mxCell id="65" style="edgeStyle=elbowEdgeStyle;sketch=0;hachureGap=4;jiggle=2;curveFitting=1;elbow=vertical;html=1;fontFamily=Verdana;fontSize=10;startArrow=blockThin;startFill=1;endArrow=blockThin;endFill=1;dashed=1;" parent="1" source="51" target="53" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="51" value="Azure Firewall" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Firewalls.svg;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Verdana;labelBackgroundColor=none;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;fontStyle=0" vertex="1" parent="1">
+                <mxCell id="51" value="Azure Firewall" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Firewalls.svg;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Verdana;labelBackgroundColor=none;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;fontStyle=0" parent="1" vertex="1">
                     <mxGeometry x="371.46999999999997" y="318" width="49.69" height="42" as="geometry"/>
                 </mxCell>
-                <mxCell id="52" value="vWAN Hub&lt;br style=&quot;font-size: 12px;&quot;&gt;192.168.1.0/24" style="text;strokeColor=none;align=center;fillColor=none;verticalAlign=middle;rounded=0;labelBackgroundColor=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Verdana;fontSize=12;spacing=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+                <mxCell id="52" value="vWAN Hub&lt;br style=&quot;font-size: 12px;&quot;&gt;192.168.1.0/24" style="text;strokeColor=none;align=center;fillColor=none;verticalAlign=middle;rounded=0;labelBackgroundColor=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Verdana;fontSize=12;spacing=0;whiteSpace=wrap;html=1;fontStyle=0" parent="1" vertex="1">
                     <mxGeometry x="358.32" y="255" width="76" height="34" as="geometry"/>
                 </mxCell>
-                <mxCell id="53" value="ExpressRoute&lt;br&gt;Gateway" style="aspect=fixed;html=1;points=[];align=left;image;fontSize=12;image=img/lib/azure2/networking/Virtual_Network_Gateways.svg;labelBackgroundColor=none;hachureGap=4;fontFamily=Verdana;labelPosition=right;verticalLabelPosition=bottom;verticalAlign=top;spacing=-4;spacingRight=0;spacingTop=1;spacingLeft=-11;" vertex="1" parent="1">
+                <mxCell id="53" value="ExpressRoute&lt;br&gt;Gateway" style="aspect=fixed;html=1;points=[];align=left;image;fontSize=12;image=img/lib/azure2/networking/Virtual_Network_Gateways.svg;labelBackgroundColor=none;hachureGap=4;fontFamily=Verdana;labelPosition=right;verticalLabelPosition=bottom;verticalAlign=top;spacing=-4;spacingRight=0;spacingTop=1;spacingLeft=-11;" parent="1" vertex="1">
                     <mxGeometry x="376.34000000000003" y="399" width="39.94" height="53" as="geometry"/>
                 </mxCell>
-                <mxCell id="30" style="edgeStyle=none;shape=connector;rounded=1;hachureGap=4;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Verdana;fontSize=12;fontColor=default;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="32" target="53">
+                <mxCell id="30" style="edgeStyle=none;shape=connector;rounded=1;hachureGap=4;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Verdana;fontSize=12;fontColor=default;endArrow=none;endFill=0;dashed=1;" parent="1" source="32" target="53" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="2" value="" style="edgeStyle=none;shape=connector;rounded=1;hachureGap=4;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Verdana;fontSize=12;fontColor=default;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="53" target="17">
+                <mxCell id="2" value="" style="edgeStyle=none;shape=connector;rounded=1;hachureGap=4;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Verdana;fontSize=12;fontColor=default;endArrow=none;endFill=0;dashed=1;" parent="1" source="53" target="17" edge="1">
                     <mxGeometry x="-0.1111" y="-55" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="66" value="&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Verdana; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;ER Connection&lt;/span&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontSize=9;fontFamily=Verdana;fontColor=default;rotation=90;fontStyle=1;verticalAlign=middle;" vertex="1" parent="1">
+                <mxCell id="66" value="&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Verdana; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;ER Connection&lt;/span&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontSize=9;fontFamily=Verdana;fontColor=default;rotation=90;fontStyle=1;verticalAlign=middle;" parent="1" vertex="1">
                     <mxGeometry x="361" y="543" width="90" height="20" as="geometry"/>
                 </mxCell>
             </root>
