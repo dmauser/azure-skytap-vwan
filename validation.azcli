@@ -1,0 +1,14 @@
+region=eastus
+rg=lab-svh-skytap # set your Resource Group
+vwanname=svh-skytap # vWAN name
+hubname=svhub # vHub name
+
+# Get ExperssRoute Circuits
+az network express-route list -g $rg --query [].name -o tsv
+
+# For each expressroute circuit get the route tables
+for circuit in $(az network express-route list -g $rg --query [].name -o tsv)
+do
+    echo "Circuit: $circuit"
+    az network express-route list-route-tables --path primary -n $circuit -g $rg  --peering-name AzurePrivatePeering --query value -o table --only-show-errors
+done

@@ -1,7 +1,7 @@
 # Parameters (make changes based on your requirements)
 region=eastus
-rg=lab-svh-avs # set your Resource Group
-vwanname=svh-avs # vWAN name
+rg=lab-svh-Skytap # set your Resource Group
+vwanname=svh-Skytap # vWAN name
 hubname=svhub # vHub name
 subid=$(az account list --query "[?isDefault == \`true\`].id" --all -o tsv)
 
