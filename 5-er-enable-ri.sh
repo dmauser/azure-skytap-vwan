@@ -1,7 +1,7 @@
 #Parameters
 region=eastus
-rg=lab-svh-avs # set your Resource Group
-vwanname=svh-avs # vWAN name
+rg=lab-svh-skytap # set your Resource Group
+vwanname=svh-skytap # vWAN name
 hubname=svhub # vHub name
 riconfig=PrivateOnly #Routing Intenet configuration, valid parametersare: privateonly, internetonly or both.
 

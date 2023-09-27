@@ -27,11 +27,30 @@ do
     echo "$hubname routingState="$rtState
     sleep 5
 done
+echo Creating Azure Firewall Policy
+#Create firewall rules
+az network firewall policy create --name $fwpolicyname --resource-group $rg --sku $firewallsku --enable-dns-proxy true --output none
+az network firewall policy rule-collection-group create --name NetworkRuleCollectionGroup --priority 200 --policy-name $fwpolicyname --resource-group $rg --output none
+#Adding any-to-any firewall rule
+az network firewall policy rule-collection-group collection add-filter-collection \
+ --resource-group $rg \
+ --policy-name $fwpolicyname \
+ --name GenericCollection \
+ --rcg-name NetworkRuleCollectionGroup \
+ --rule-type NetworkRule \
+ --rule-name AnytoAny \
+ --action Allow \
+ --ip-protocols "Any" \
+ --source-addresses "*" \
+ --destination-addresses  "*" \
+ --destination-ports "*" \
+ --collection-priority 100 \
+ --output none
 
 echo Deploying Azure Firewall inside vHub...
 fwpolid=$(az network firewall policy show --resource-group $rg --name $fwpolicyname --query id --output tsv)
 az network firewall create -g $rg -n $hubname-azfw --sku AZFW_Hub --tier $firewallsku --virtual-hub $hubname --public-ip-count 1 --firewall-policy $fwpolid --location $region --output none &>/dev/null &
-
+sleep 5
 echo Checking Firewall provisioning status...
 prState=''
 while [[ $prState != 'Succeeded' ]];
