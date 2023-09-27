@@ -1,0 +1,70 @@
+#!/bin/bash
+
+#Parameters
+region=eastus
+rg=lab-svh-skytap # set your Resource Group
+vwanname=svh-skytap # vWAN name
+hubname=svhub # vHub name
+username=azureuser # Username
+password="Msft123Msft123" # Please change your password
+vmsize=Standard_DS1_v2 # VM Size
+firewallsku=Premium #Azure Firewall SKU Standard or Premium
+fwpolicyname=$hubname-fwpolicy #Firewall Policy Name
+
+echo Checking vHub provisioning status...
+# Checking vHub provisioning and routing state 
+prState=''
+rtState=''
+while [[ $prState != 'Succeeded' ]];
+do
+    prState=$(az network vhub show -g $rg -n $hubname --query 'provisioningState' -o tsv)
+    echo "$hubname provisioningState="$prState
+    sleep 5
+done
+while [[ $rtState != 'Provisioned' ]];
+do
+    rtState=$(az network vhub show -g $rg -n $hubname --query 'routingState' -o tsv)
+    echo "$hubname routingState="$rtState
+    sleep 5
+done
+
+echo Deploying Azure Firewall inside vHub...
+fwpolid=$(az network firewall policy show --resource-group $rg --name $fwpolicyname --query id --output tsv)
+az network firewall create -g $rg -n $hubname-azfw --sku AZFW_Hub --tier $firewallsku --virtual-hub $hubname --public-ip-count 1 --firewall-policy $fwpolid --location $region --output none &>/dev/null &
+
+echo Checking Firewall provisioning status...
+prState=''
+while [[ $prState != 'Succeeded' ]];
+do
+    prState=$(az network firewall show -g $rg -n $hubname-azfw --query 'provisioningState' -o tsv)
+    echo "$hubname-azfw provisioningState="$prState
+    sleep 5
+done
+
+msinsights=$(az provider show -n microsoft.insights --query registrationState -o tsv)
+if [ $msinsights == 'NotRegistered' ] || [ $msinsights == 'Unregistered' ]; then
+az provider register -n microsoft.insights --accept-terms
+ prState=''
+ while [[ $prState != 'Registered' ]];
+ do
+    prState=$(az provider show -n microsoft.insights --query registrationState -o tsv)
+    echo "MS Insights State="$prState
+    sleep 5
+ done
+fi
+
+echo Enabling Azure Firewall diagnostics...
+## Log Analytics workspace name. 
+Workspacename=$hubname-$region-Logs
+
+#Creating Log Analytics Workspaces
+az monitor log-analytics workspace create -g $rg --workspace-name $Workspacename --location $region --output none
+
+#EnablingAzure Firewall diagnostics
+#az monitor diagnostic-settings show -n toLogAnalytics -g $rg --resource $(az network firewall show --name $hubname-azfw --resource-group $rg --query id -o tsv)
+az monitor diagnostic-settings create -n 'toLogAnalytics' \
+--resource $(az network firewall show --name $hubname-azfw --resource-group $rg --query id -o tsv) \
+--workspace $(az monitor log-analytics workspace show -g $rg --workspace-name $Workspacename --query id -o tsv) \
+--logs '[{"category":"AzureFirewallApplicationRule","Enabled":true}, {"category":"AzureFirewallNetworkRule","Enabled":true}, {"category":"AzureFirewallDnsProxy","Enabled":true}]' \
+--metrics '[{"category": "AllMetrics","enabled": true}]' \
+--output none
