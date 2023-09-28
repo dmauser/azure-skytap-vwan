@@ -1,0 +1,24 @@
+#!/bin/bash
+
+#Parameters
+region=eastus
+rg=lab-svh-skytap # set your Resource Group
+vwanname=svh-skytap # vWAN name
+hubname=svhub # vHub name
+username=azureuser # Username
+password="Msft123Msft123" # Please change your password
+vmsize=Standard_DS1_v2 # VM Size
+
+az network firewall delete -g $rg -n $hubname-azfw &>/dev/null && echo "Deleted $hub1name-azfw" &>/dev/null &
+
+while true
+do
+    az network firewall show -g $rg -n $hubname-azfw &>/dev/null
+    if [ $? -eq 0 ]; then
+        echo "Waiting for $hubname-azfw to be deleted..."
+        sleep 10
+    else
+        echo "$hubname-azfw deleted successfully"
+        break
+    fi
+done

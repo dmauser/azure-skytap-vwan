@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="TCC7TCrnxtZKgZeU-eHq" name="Page-1">
-        <mxGraphModel dx="1479" dy="495" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="759" dy="539" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -58,6 +58,9 @@
                 <mxCell id="29" value="On-premises&lt;br&gt;10.154.0.0/24&lt;br&gt;" style="whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Verdana;fontSize=12;fillColor=#eeeeee;strokeColor=#36393d;fontStyle=1;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="312.57" y="672" width="167.5" height="105" as="geometry"/>
                 </mxCell>
+                <mxCell id="69" style="edgeStyle=none;html=1;entryX=0.236;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#00FF00;" edge="1" parent="1" source="32" target="17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="32" value="&lt;div style=&quot;&quot;&gt;Dallas&lt;/div&gt;&lt;div style=&quot;&quot;&gt;MSEE&lt;/div&gt;" style="aspect=fixed;html=1;points=[];align=left;image;fontSize=12;image=img/lib/azure2/networking/ExpressRoute_Circuits.svg;hachureGap=4;fontFamily=Verdana;fontStyle=0;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;labelBackgroundColor=none;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="374.44" y="591" width="43.75" height="40" as="geometry"/>
                 </mxCell>
@@ -95,6 +98,12 @@
                 </mxCell>
                 <mxCell id="66" value="&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Verdana; font-size: 9px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;ER Connection&lt;/span&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontSize=9;fontFamily=Verdana;fontColor=default;rotation=90;fontStyle=1;verticalAlign=middle;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="361" y="543" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="RFC 1918&lt;br&gt;10/8&lt;br&gt;172.16/12&lt;br&gt;192.168/16&lt;br&gt;&lt;u style=&quot;border-color: var(--border-color); font-family: Verdana; font-size: 10px; font-weight: 700; text-align: left;&quot;&gt;10.10.0.0/24&lt;/u&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="397" y="348" width="105" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="Advertise form On-premsies&lt;br&gt;RFC 1918 - split in /2&lt;br&gt;10/8&amp;nbsp;&lt;br&gt;172.16/12&lt;br&gt;192.168/16" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="472" y="595" width="218.93" height="55" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
