@@ -12,3 +12,6 @@ do
     echo "Circuit: $circuit"
     az network express-route list-route-tables --path primary -n $circuit -g $rg  --peering-name AzurePrivatePeering --query value -o table --only-show-errors
 done
+
+# Get Azure Firewall vHub Public IP
+az network firewall show -g $rg -n $hubname-azfw --query hubIPAddresses.publicIPs.addresses[] -o tsv
